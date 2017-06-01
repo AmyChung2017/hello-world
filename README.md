@@ -15,7 +15,7 @@ Node会默认为我们安装某个版本的npm，一般无需单独安装，详�
 - [npm安装教程](http://coloration.cc/npmjs-documentation/2016/03/29/installingNodejsAndUpdatingNpm.html)
 
 ### 1.4 创建package.json文件
-进入本地项目所在目录，创建一个`package.json`的文件，包含以下内容
+进入本地项目所在目录，创建一个`package.json`的文件，包含以下内容，可根据项目自身情况进行对应修改
 
     {
       "name": "hello-world",
@@ -106,3 +106,9 @@ Node会默认为我们安装某个版本的npm，一般无需单独安装，详�
     $ gulp
 
 ### 2.5 学习
+
+
+# 参考文章
+1. [gulp中文文档 - 唐霜](https://tangshuang.gitbooks.io/gulp-chinese-guide/content/)
+2. [gulp 命令行（CLI）文档 - Gulp中文网](http://www.gulpjs.com.cn)
+3. [Getting Started - Gulp官网](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
