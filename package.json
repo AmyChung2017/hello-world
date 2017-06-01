@@ -1,0 +1,26 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "learn to build a complete web project",
+  "main": "home.js",
+  "scripts": {
+    "test": "基于npm的脚本，可以在命令行里，在这个包里面运行npm run test，就会显示一行字"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmyChung2017/hello-world.git"
+  },
+  "keywords": [
+    "node", "npm", "gulp", "html", "css", "javascript"
+  ],
+  "author": "AmyChung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmyChung2017/hello-world/issues"
+  },
+  "homepage": "https://github.com/AmyChung2017/hello-world",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
