@@ -11,7 +11,12 @@
     "url": "git+https://github.com/AmyChung2017/hello-world.git"
   },
   "keywords": [
-    "node", "npm", "gulp", "html", "css", "javascript"
+    "node",
+    "npm",
+    "gulp",
+    "html",
+    "css",
+    "javascript"
   ],
   "author": "AmyChung",
   "license": "MIT",
@@ -21,6 +26,11 @@
   "homepage": "https://github.com/AmyChung2017/hello-world",
   "dependencies": {},
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
     "gulp": "^3.9.1"
+  },
+  "babel": {
+    "presets": ["env"]
   }
 }

@@ -106,12 +106,42 @@ Node会默认为我们安装某个版本的npm，一般无需单独安装，详�
     $ gulp
 
 ### 2.5 深入学习
-- [CLI命令行](https://github.com/AmyChung2017/hello-world/blob/master/README/gulp/cli.md)
-- [CLI命令行测试](./README/gulp/cli.md)
+- [CLI命令行](./README/gulp/cli.md)
 - API文档
+
+## 3. 使用Babel
+
+### 3.1 安装
+
+    npm install --save-dev babel-cli babel-preset-env
+
+### 3.2 创建.babelrc文件 / 配置package.json文件
+有两种配置方式，二者选其一
+
+进入本地项目所在目录，创建一个`.babelrc`的文件，包含以下内容
+
+    {
+      "presets": ["env"]
+    }
+
+或者
+
+配置本地项目的`package.json`文件
+
+    {
+      "name": "my-package",
+      "version": "1.0.0",
+      "babel": {
+        "presets": ["env"]
+        // my babel config here
+      }
+    }
+
 
 
 # 参考文章
 1. [gulp中文文档 - 唐霜](https://tangshuang.gitbooks.io/gulp-chinese-guide/content/)
-2. [gulp 命令行（CLI）文档 - Gulp中文网](http://www.gulpjs.com.cn)
-3. [Getting Started - Gulp官网](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+2. [Getting Started - Gulp官网](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+3. [Babel官网](https://babeljs.io)
+4. [如何使用.babelrc - Babel官网](http://babeljs.io/docs/usage/babelrc/)
+
