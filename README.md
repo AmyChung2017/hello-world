@@ -105,7 +105,10 @@ Node会默认为我们安装某个版本的npm，一般无需单独安装，详�
 
     $ gulp
 
-### 2.5 学习
+### 2.5 深入学习
+- [CLI命令行](https://github.com/AmyChung2017/hello-world/blob/master/README/gulp/cli.md)
+- [CLI命令行测试](./README/gulp/cli.md)
+- API文档
 
 
 # 参考文章
