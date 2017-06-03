@@ -1,7 +1,7 @@
 # Node-glob API
 
 ## 1. 简介
-node的glob模块允许你使用*等符号，来写一个glob规则，像在shell里一样，获取匹配对应规则的文件.
+node的glob模块允许你使用*等符号，来写一个glob规则，像在shell里一样，获取匹配对应规则的文件。
 
 这个glob工具基于javascript。它使用了`minimatch`库来进行匹配。
 

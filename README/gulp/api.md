@@ -23,9 +23,12 @@
 
 > 类型：Object
 
-通过[glob-stream](https://github.com/gulpjs/glob-stream)所传递给node-glob的参数。
+通过glob-stream所传递给node-glob的参数。
 
-除了glob-stream和node-glob所支持的参数外，gulp增加了一些额外的选项参数：
+除了glob-stream和node-glob所支持的参数外（不支持`ignore`参数），gulp增加了一些额外的选项参数：
+
+- [glob-stream](https://github.com/gulpjs/glob-stream)
+- [深入学习glob-stream](../glob-stream/api.md)
 
 #### 1.2.1 options.buffer
 
