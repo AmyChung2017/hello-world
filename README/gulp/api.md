@@ -11,7 +11,13 @@
 
 所要读取的glob或者包含globs的数组。
 
-glob请参考[node-glob语法](https://github.com/isaacs/node-glob)。或者，你也可以直接写文件的路径。
+可以使用node-glob语法，或者直接写文件的路径。
+
+    gulp.src('gulpfile-list/src/*.js')
+        .pipe(gulp.dest('gulpfile-list/build/minify'));
+
+- [node-glob语法](https://github.com/isaacs/node-glob)
+- [深入学习node-glob](../node-glob/api.md)
 
 ### 1.2 可选参数options
 

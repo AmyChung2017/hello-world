@@ -113,7 +113,7 @@ Node会默认为我们安装某个版本的npm，一般无需单独安装，详�
 
 ### 3.1 安装
 
-    npm install --save-dev babel-cli babel-preset-env
+    $ npm install --save-dev babel-cli babel-preset-env
 
 ### 3.2 创建.babelrc文件 / 配置package.json文件
 有两种配置方式，二者选其一
@@ -136,8 +136,6 @@ Node会默认为我们安装某个版本的npm，一般无需单独安装，详�
         // my babel config here
       }
     }
-
-
 
 # 参考文章
 1. [gulp中文文档 - 唐霜](https://tangshuang.gitbooks.io/gulp-chinese-guide/content/)
