@@ -3,6 +3,9 @@
 gulp.task('default', function() {
   console.info('------------BEGIN Default Task-----------------------');
   console.log('这是gulpfile的default任务');
+
+  gulp.src();
+
   console.info('------------END Default Task-----------------------');
 });
 

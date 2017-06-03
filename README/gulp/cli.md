@@ -67,4 +67,4 @@
 # 参考文章
 1. [gulp 命令行（CLI）文档 - Gulp中文网](http://www.gulpjs.com.cn)
 2. [指定一个新的 cwd (当前工作目录) - Gulp中文网](http://www.gulpjs.com.cn/docs/recipes/specifying-a-cwd/)
-
+3. [gulp CLI docs - Gulp官网](https://github.com/gulpjs/gulp/blob/master/docs/CLI.md)

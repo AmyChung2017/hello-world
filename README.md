@@ -107,7 +107,7 @@ Node会默认为我们安装某个版本的npm，一般无需单独安装，详�
 
 ### 2.5 深入学习
 - [CLI命令行](./README/gulp/cli.md)
-- API文档
+- [API文档](./README/gulp/api.md)
 
 ## 3. 使用Babel
 
